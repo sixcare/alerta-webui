@@ -56,3 +56,10 @@ bootstrap.getConfig().then(config => {
     render: (h: any) => h(App)
   }).$mount('#app')
 })
+
+createApp(App)
+  .use(store)
+  .use(router)
+  .use(vuetify)
+  .use(GoogleAnalytics)
+  .mount('#app')

@@ -5,9 +5,9 @@ import Vuex, {Store} from 'vuex'
 import Vuetify from 'vuetify'
 import i18n from '@/plugins/i18n'
 
-Vue.config.silent = true
-Vue.use(Vuetify)
-Vue.use(Vuex)
+//Vue.config.silent = true
+//Vue.use(Vuetify)
+//Vue.use(Vuex)
 
 describe('ApiKeyList', () => {
   let store: Store<any>
